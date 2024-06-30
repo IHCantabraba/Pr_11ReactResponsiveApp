@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Character.css'
 function Character({ character }) {
   // const [rotate, setRotation] = useState(false)
-
+  console.log(character)
   return (
     <>
       <div className='container'>

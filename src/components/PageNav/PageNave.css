@@ -18,3 +18,30 @@
 .secondary {
   background-color: grey;
 }
+@media (max-width: 740px) {
+  .btn {
+    padding: var(--ihc-basic-anchor-padding-m);
+    font-size: 12px;
+  }
+  .page-section > p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 530px) {
+  .btn {
+    padding: var(--ihc-basic-anchor-padding-s);
+    font-size: 10px;
+  }
+  .page-section > p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 430px) {
+  .btn {
+    padding: var(--ihc-basic-anchor-padding-xs);
+    font-size: 10px;
+  }
+  .page-section > p {
+    font-size: 10px;
+  }
+}

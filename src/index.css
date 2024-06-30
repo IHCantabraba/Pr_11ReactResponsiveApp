@@ -21,6 +21,7 @@
 
   /* WIDTH HEIGHT*/
   --ihc-basic-width: 100%;
+  --ihc-basic-half-width: 50%;
   --ihc-header-height: 40px;
   --ihc-footer-height: 40px;
   /* COLORS */
@@ -40,6 +41,9 @@
   /* PADDING */
   --ihc-padding-top: 10px;
   --ihc-basic-anchor-padding: 10px 15px;
+  --ihc-basic-anchor-padding-m: 8px 12px;
+  --ihc-basic-anchor-padding-s: 6px 10px;
+  --ihc-basic-anchor-padding-xs: 4px 8px;
   /* FONT */
   --ihc-anchor-font-weight: bold;
 }
