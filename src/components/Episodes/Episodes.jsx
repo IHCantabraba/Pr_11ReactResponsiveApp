@@ -22,6 +22,8 @@ const Episodes = () => {
       <section className='filterSection'>
         <h4>Filtra por Nombre </h4>
         <input
+          className='filter-input'
+          placeholder='Meeseeks and Destroy'
           type='text'
           value={filter}
           onChange={(e) => setFilter(e.target.value)}

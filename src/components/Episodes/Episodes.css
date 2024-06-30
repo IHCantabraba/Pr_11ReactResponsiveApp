@@ -7,9 +7,21 @@
 }
 .filterSection {
   align-self: self-start;
+  display: var(--ihc-basic-display);
+  flex-direction: var(--ihc-basic-direction-row);
+  margin-bottom: var(--ihc-magin-bottom);
+  align-items: var(--ihc-basic-align);
+  justify-content: var(--ihc-basic-JContent-center);
+  gap: var(--ihc-basic-gap);
 }
 .episodes-section {
   display: var(--ihc-basic-display-sec);
   grid-template-columns: var(--ihc-basic-grid-template-column);
   gap: var(--ihc-basic-gap);
+}
+.filter-input {
+  border: var(--ihc-basic-border);
+  border-radius: var(--ihc-basic-border-radius);
+  height: 30px;
+  text-align: center;
 }
