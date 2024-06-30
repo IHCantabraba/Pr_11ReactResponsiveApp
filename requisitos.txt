@@ -11,9 +11,8 @@ Con estos contenidos podremos realizar un proyecto con los siguientes requisitos
   1. (characters) DONE
 
 - Uso mínimo de una petición a una API para recoger unos datos
+  1. (characters) DONE
 
 - Uso de React Router, declaración de rutas y acceder a ellas mediante Links, además, mínimo una ruta permite recibir un parámetro, el componente renderizado por esa ruta utilizará el parámetro enviado con alguna finalidad.
 
-
-
-Como siempre la temática será libre, podéis utilizar cualquier API que os guste, aquí tenéis un repositorio con muchas por si os puede ayudar a elegir en que basar vuestro proyecto: https://github.com/public-apis/public-apis
+- Como siempre la temática será libre, podéis utilizar cualquier API que os guste, aquí tenéis un repositorio con muchas por si os puede ayudar a elegir en que basar vuestro proyecto: https://github.com/public-apis/public-apis
