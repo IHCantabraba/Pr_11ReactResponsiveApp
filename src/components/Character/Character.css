@@ -1,0 +1,21 @@
+.characters-container {
+  width: var(--ihc-basic-width);
+  display: var(--ihc-basic-display);
+  flex-direction: var(--ihc-basic-direction-col);
+}
+.container {
+  display: var(--ihc-basic-display);
+  flex-direction: var(--ihc-basic-direction-col);
+  align-items: var(--ihc-basic-align);
+  justify-content: var(--ihc-basic-JContent-center);
+  gap: var(--ihc-basic-gap);
+}
+
+.row {
+  display: var(--ihc-basic-display-sec);
+  grid-template-columns: var(--ihc-basic-grid-template-column);
+  gap: var(--ihc-basic-gap);
+}
+.container > img {
+  border-radius: var(--ihc-border-radius-round);
+}

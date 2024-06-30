@@ -1,0 +1,20 @@
+.page-section {
+  display: var(--ihc-basic-display);
+  flex-direction: var(--ihc-basic-direction-row);
+  align-items: var(--ihc-basic-align);
+  justify-content: var(--ihc-basic-JContent-SA);
+  gap: var(--ihc-basic-gap);
+  padding-top: var(--ihc-padding-top);
+  padding-bottom: var(--ihc-padding-top);
+}
+.btn {
+  padding: var(--ihc-basic-anchor-padding);
+  border-radius: var(--ihc-basic-border-radius);
+  cursor: pointer;
+}
+.primary {
+  background-color: rgb(119, 183, 220);
+}
+.secondary {
+  background-color: grey;
+}

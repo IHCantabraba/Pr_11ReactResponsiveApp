@@ -1,0 +1,25 @@
+footer {
+  height: var(--ihc-footer-height);
+  background-color: var(--ihc-basic-bgColor);
+  color: var(--ihc-primary-text-color);
+  width: var(--ihc-basic-width);
+  font-weight: var(--ihc-anchor-font-weight);
+  display: var(--ihc-basic-display);
+  align-items: var(--ihc-basic-align);
+  justify-content: var(--ihc-basic-JContent-center);
+}
+@media (max-width: 470px) {
+  footer {
+    font-size: 14px;
+  }
+}
+@media (max-width: 380px) {
+  footer {
+    font-size: 12px;
+  }
+}
+@media (max-width: 300px) {
+  footer {
+    font-size: 10px;
+  }
+}

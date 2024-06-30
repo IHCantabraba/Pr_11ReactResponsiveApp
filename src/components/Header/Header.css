@@ -1,0 +1,40 @@
+header,
+nav,
+ul {
+  display: var(--ihc-basic-display);
+  flex-direction: var(--ihc-basic-direction-row);
+  align-items: var(--ihc-basic-align);
+  justify-content: var(--ihc-basic-JContent-SA);
+  width: var(--ihc-basic-width);
+  height: var(--ihc-header-height);
+}
+
+header {
+  background-color: var(--ihc-basic-bgColor);
+}
+ul > a {
+  color: var(--ihc-primary-text-color);
+  font-weight: var(--ihc-anchor-font-weight);
+  padding: var(--ihc-basic-anchor-padding);
+}
+
+ul > a:hover {
+  background-color: lightgray;
+  border-radius: var(--ihc-basic-border-radius);
+  color: var(--ihc-basic-text-color);
+}
+@media (max-width: 470px) {
+  a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 380px) {
+  a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 300px) {
+  a {
+    font-size: 10px;
+  }
+}
