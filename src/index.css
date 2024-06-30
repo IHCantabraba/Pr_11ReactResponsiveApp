@@ -46,4 +46,6 @@
   --ihc-basic-anchor-padding-xs: 4px 8px;
   /* FONT */
   --ihc-anchor-font-weight: bold;
+  /*  BORDER*/
+  --ihc-basic-border: 1px solid lightgrey;
 }

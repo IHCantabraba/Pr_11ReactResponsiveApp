@@ -1,0 +1,6 @@
+.container {
+  border: var(--ihc-basic-border);
+  border-radius: var(--ihc-basic-border-radius);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: var(--ihc-basic-margin);
+}

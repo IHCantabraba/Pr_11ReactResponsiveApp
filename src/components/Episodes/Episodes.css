@@ -1,0 +1,15 @@
+.episodes-container {
+  display: var(--ihc-basic-display);
+  flex-direction: var(--ihc-basic-direction-col);
+  align-items: var(--ihc-basic-align);
+  justify-content: var(--ihc-basic-JContent-center);
+  margin: var(--ihc-basic-margin);
+}
+.filterSection {
+  align-self: self-start;
+}
+.episodes-section {
+  display: var(--ihc-basic-display-sec);
+  grid-template-columns: var(--ihc-basic-grid-template-column);
+  gap: var(--ihc-basic-gap);
+}

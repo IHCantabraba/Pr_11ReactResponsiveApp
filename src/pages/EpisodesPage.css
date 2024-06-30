@@ -1,0 +1,4 @@
+.episodes-page {
+  display: var(--ihc-basic-display);
+  flex-direction: var(--ihc-basic-direction-col);
+}
