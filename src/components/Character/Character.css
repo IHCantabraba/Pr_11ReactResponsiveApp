@@ -9,6 +9,8 @@
   align-items: var(--ihc-basic-align);
   justify-content: var(--ihc-basic-JContent-center);
   gap: var(--ihc-basic-gap);
+  background-color: var(--ihc-primary-text-color);
+  min-height: var(--ihc-min-height-card-xl);
 }
 .container > img {
   width: var(--ihc-basic-half-width);
@@ -17,7 +19,9 @@
   display: var(--ihc-basic-display-sec);
   grid-template-columns: var(--ihc-basic-grid-template-column);
   gap: var(--ihc-basic-gap);
+  margin: var(--ihc-basic-margin);
 }
+
 .container > img {
   border-radius: var(--ihc-border-radius-round);
 }
@@ -30,11 +34,22 @@
   .container > p {
     font-size: 12px;
   }
+  .container {
+    min-height: var(--ihc-min-height-card-l);
+  }
+}
+@media (max-width: 680px) {
+  .container {
+    min-height: var(--ihc-min-height-card-m);
+  }
 }
 @media (max-width: 530px) {
   .container > h4,
   .container > p {
     font-size: 10px;
+  }
+  .container {
+    min-height: 122px;
   }
 }
 @media (max-width: 430px) {

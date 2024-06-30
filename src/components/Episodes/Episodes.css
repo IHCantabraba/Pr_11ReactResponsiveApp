@@ -24,4 +24,5 @@
   border-radius: var(--ihc-basic-border-radius);
   height: 30px;
   text-align: center;
+  font-size: 10px;
 }

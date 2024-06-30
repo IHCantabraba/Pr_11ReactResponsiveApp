@@ -24,6 +24,11 @@
   --ihc-basic-half-width: 50%;
   --ihc-header-height: 40px;
   --ihc-footer-height: 40px;
+  --ihc-min-height-card-xl: 200px;
+  --ihc-min-height-card-l: 170px;
+  --ihc-min-height-card-m: 140px;
+  --ihc-min-height-card-s: 100px;
+  --ihc-min-height-card-xs: 80px;
   /* COLORS */
   --ihc-basic-text-color: black;
   --ihc-nchorLink-text-color: rgb(64, 148, 193);
