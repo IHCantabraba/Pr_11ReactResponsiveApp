@@ -4,6 +4,7 @@ import React from 'react'
 const Episode = ({ epi }) => {
   const season = epi.episode.split('E')[0]
   const episodio = epi.episode.split('E')[1]
+  // const img = {season==='S0!'? ''}
   return (
     <>
       <div className='container'>
