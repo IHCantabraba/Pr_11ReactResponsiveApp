@@ -16,7 +16,7 @@ const Episode = ({ epi }) => {
         <h4>E{episodio}</h4>
         <h4 key={epi.episode}>Temporada {season}</h4>
         <h4 className='episode-link' key={epi.name}>
-          <Link to={`${epi.id}`}>Episodio {epi.name}</Link>
+          <Link to={`/episode/${epi.id}`}>Episodio {epi.name}</Link>
         </h4>
       </div>
     </>

@@ -8,6 +8,7 @@ import CharactersPage from './pages/CharactersPage.jsx'
 import EpisodePage from './pages/EpisodePage.jsx'
 import EpisodesPage from './pages/EpisodesPage.jsx'
 import NotFound from './pages/NotFoundPage.jsx'
+import SelectedEpisode from './components/SelectedEpisode/SelectedEpisode.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route index element={<Home />}></Route>
           <Route path='characters' element={<CharactersPage />}></Route>
           <Route path='episodes' element={<EpisodesPage />}></Route>
-          {/* <Route path='episode/:id' element={<EpisodePage />}></Route> */}
+          <Route path='episode/:id' element={<SelectedEpisode />}></Route>
           <Route path='*' element={<NotFound />}></Route>
         </Route>
       </Routes>

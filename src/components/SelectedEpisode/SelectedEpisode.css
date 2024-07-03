@@ -1,0 +1,25 @@
+.single-episode,
+.episode-header {
+  display: var(--ihc-basic-display);
+  align-items: var(--ihc-basic-align);
+  justify-content: var(--ihc-basic-JContent-center);
+  margin-top: var(--ihc-magin-top);
+}
+.single-episode {
+  flex-direction: var(--ihc-basic-direction-col);
+}
+/* .episode-header {
+  flex-direction: var(--ihc-basic-direction-row);
+  justify-content: var(--ihc-basic-JContent-SA);
+  width: var(--ihc-basic-width);
+} */
+.back-to-episodes {
+  align-self: flex-end;
+  width: var(--ihc-close-Btn-width);
+  height: var(--ihc-close-Btn-height);
+  margin-right: var(--ihc-magin-top);
+}
+.episode-title {
+  text-decoration: underline;
+  text-align: center;
+}

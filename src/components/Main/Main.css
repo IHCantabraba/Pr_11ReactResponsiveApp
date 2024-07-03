@@ -1,3 +1,4 @@
 main {
   width: var(--ihc-basic-width);
+  min-height: calc(100vh - var(--ihc-header-height) - var(--ihc-footer-height));
 }

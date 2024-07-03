@@ -1,19 +1,11 @@
 import React, { useState } from 'react'
 import './Character.css'
 function Character({ character }) {
-  // const [rotate, setRotation] = useState(false)
-  console.log(character)
   return (
     <>
       <div className='container'>
         <h4 key={character.name}>{character.name}</h4>
-        <img
-          src={character.image}
-          alt={character.name}
-          // className={rotate ? 'rotate-180 rounded-pill' : 'rounded-pill'}
-          // onClick={() => setRotation(!rotate)}
-        ></img>
-
+        <img src={character.image} alt={character.name}></img>
         <p>
           {character.origin.name != 'unknown'
             ? character.origin.name
