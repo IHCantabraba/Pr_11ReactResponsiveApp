@@ -12,7 +12,7 @@ const Episodes = () => {
       let activeFilter = `https://rickandmortyapi.com/api/episode/?name=${filter}`
       const episodes = await fetch(activeFilter)
       const EpisodesJSON = await episodes.json()
-      console.log(EpisodesJSON.results)
+
       return EpisodesJSON.results
     }
     getEpisodesFiltered().then((episodes) => setEpisodes(episodes))

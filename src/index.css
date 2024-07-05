@@ -21,7 +21,9 @@
 
   /* WIDTH HEIGHT*/
   --ihc-basic-width: 100%;
+  --ihc-80-width: 80%;
   --ihc-basic-half-width: 50%;
+  --ihc-basic-half-height: 50%;
   --ihc-header-height: 40px;
   --ihc-footer-height: 40px;
   --ihc-min-height-card-xl: 200px;
@@ -39,6 +41,7 @@
   --ihc-homePage-bgColor: lightgrey;
   /* GAPS */
   --ihc-basic-gap: 0.5rem;
+  --ihc-basic-gap-m: 0.8rem;
   /* BORDER RADIUS */
   --ihc-basic-border-radius: 15px;
   --ihc-border-radius-round: 50%;
@@ -56,4 +59,7 @@
   --ihc-anchor-font-weight: bold;
   /*  BORDER*/
   --ihc-basic-border: 1px solid lightgrey;
+  /* SHADOW */
+  --ihc-basic-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  --ihc-harder-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
 }
