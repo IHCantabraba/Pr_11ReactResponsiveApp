@@ -39,7 +39,10 @@
   border-radius: var(--ihc-basic-border-radius);
   height: var(--ihc-min-height-card-xl);
   box-shadow: var(--ihc-harder-shadow);
-  background-color: none;
+  background-image: url('../planet.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .person-img {
   position: relative;

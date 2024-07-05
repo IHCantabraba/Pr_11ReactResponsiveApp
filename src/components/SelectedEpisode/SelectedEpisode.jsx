@@ -3,30 +3,13 @@ import React, { useState, useEffect } from 'react'
 
 import './SelectedEpisode.css'
 /* definir el fetch */
-const charInfo = async (char, data) => {
-  const res = await fetch(char)
-  const resData = await res.json()
-  data.Personajes.push(resData.image)
-}
+
 /* obtener info del episodio */
 const episodeData = async (episodioId) => {
   const response = await fetch(
     `https://rickandmortyapi.com/api/episode/${episodioId.id}`
   )
   const data = await response.json()
-  /* crear una key nueva al objeto episodio 
-      para añadir las rútas a las imágenes de cada personaje que existe en
-      data.characters */
-  // data.Personajes = []
-  // /* para cada ruta en data.characters
-  //     obtener la ruta a la imagen del personaje */
-  // data.characters.map((char) => {
-  //   /* ejecutar el fetch */
-  //   charInfo(char, data)
-  // })
-  /* actualizar el episodio  */
-  // setEpisode(data)
-
   return data
 }
 const SelectedEpisode = () => {
