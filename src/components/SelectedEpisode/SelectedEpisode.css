@@ -1,7 +1,9 @@
 .single-episode,
 .episode-header,
 .episode-area,
-.watch-episode {
+.watch-episode,
+.epi-page,
+.Episode-charac-Section {
   display: var(--ihc-basic-display);
   align-items: var(--ihc-basic-align);
   justify-content: var(--ihc-basic-JContent-center);
@@ -14,6 +16,10 @@
   flex-direction: var(--ihc-basic-direction-col);
   gap: var(--ihc-basic-gap);
 }
+.epi-page {
+  flex-direction: var(--ihc-basic-direction-col);
+  width: var(--ihc-basic-width);
+}
 .episode-area {
   flex-direction: var(--ihc-basic-direction-row);
   justify-content: var(--ihc-basic-JContent-center);
@@ -21,8 +27,14 @@
   width: var(--ihc-80-width);
   min-height: calc(
     100vh - var(--ihc-close-Btn-height) - var(--ihc-footer-height) -
-      var(--ihc-header-height) - var(--ihc-magin-top)
+      var(--ihc-header-height) - var(--ihc-magin-top) -
+      var(--ihc-personajes-section-height)
   );
+}
+.Episode-charac-Section {
+  flex-direction: var(--ihc-basic-direction-row);
+  width: var(--ihc-basic-width);
+  height: var(--ihc-personajes-section-height);
 }
 .back-to-episodes {
   align-self: flex-end;

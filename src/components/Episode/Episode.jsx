@@ -11,7 +11,7 @@ const Episode = ({ epi }) => {
   }
   return (
     <>
-      <div className='container'>
+      <div className='container-epi'>
         <img className='Season-Img' src={img}></img>
         <h4>E{episodio}</h4>
         <h4 key={epi.episode}>Temporada {season}</h4>

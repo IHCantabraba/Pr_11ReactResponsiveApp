@@ -11,6 +11,30 @@
   gap: var(--ihc-basic-gap);
   background-color: var(--ihc-primary-text-color);
   min-height: var(--ihc-min-height-card-xl);
+  position: relative;
+  background-color: var(--ihc-card-BG-color-basic);
+  transition: transform 0.5s;
+  width: 100%;
+}
+.container > .namelabel {
+  height: 0px;
+  position: absolute;
+  background-color: rgb(108, 104, 104, 0.327);
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: var(--ihc-basic-border-radius);
+  transition: all 0.5s;
+  width: 100%;
+}
+.container:hover {
+  /* transform: scale(1.1) rotate(1deg); */
+  outline: 5px solid rgba(117, 203, 42, 0.327);
+}
+.container:hover > .namelabel {
+  height: var(--ihc-min-height-card-l);
 }
 .container > img {
   width: var(--ihc-basic-half-width);

@@ -3,7 +3,7 @@
   flex-direction: var(--ihc-basic-direction-col);
   align-items: var(--ihc-basic-align);
   justify-content: var(--ihc-basic-JContent-center);
-  margin: var(--ihc-basic-margin);
+  margin: var(--ihc-basic-margin-m);
 }
 .filterSection {
   align-self: self-start;
@@ -25,4 +25,7 @@
   height: 30px;
   text-align: center;
   font-size: 10px;
+}
+.episode-row {
+  display: flex;
 }

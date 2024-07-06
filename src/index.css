@@ -33,12 +33,15 @@
   --ihc-min-height-card-xs: 80px;
   --ihc-close-Btn-width: 20px;
   --ihc-close-Btn-height: 20px;
+  --ihc-personajes-section-height:50px
   /* COLORS */
   --ihc-basic-text-color: black;
   --ihc-nchorLink-text-color: rgb(64, 148, 193);
   --ihc-primary-text-color: white;
   --ihc-basic-bgColor: rgb(70, 70, 70);
   --ihc-homePage-bgColor: lightgrey;
+  --ihc-card-BG-color-basic: #f4baba95;
+  --ihc-border-gray: #a6a3a3;
   /* GAPS */
   --ihc-basic-gap: 0.5rem;
   --ihc-basic-gap-m: 0.8rem;
@@ -47,6 +50,7 @@
   --ihc-border-radius-round: 50%;
   /* MARGIN */
   --ihc-basic-margin: 10px 15px;
+  --ihc-basic-margin-m: 10px 20px;
   --ihc-magin-top: 10px;
   --ihc-magin-bottom: 10px;
   /* PADDING */

@@ -1,9 +1,38 @@
-.container {
+.container-epi {
   border: var(--ihc-basic-border);
   border-radius: var(--ihc-basic-border-radius);
   box-shadow: var(--ihc-basic-shadow);
   padding: var(--ihc-basic-margin);
+  display: var(--ihc-basic-display);
+  flex-direction: var(--ihc-basic-direction-col);
+  align-items: var(--ihc-basic-align);
+  justify-content: var(--ihc-basic-JContent-center);
+  gap: var(--ihc-basic-gap);
+  min-height: var(--ihc-min-height-card-xl);
+  position: relative;
+  background-color: rgb(195, 232, 244, 0.327);
+  transition: transform 0.5s;
+  width: 100%;
+}
+.container-epi > img {
+  width: var(--ihc-basic-half-width);
+  border-radius: var(--ihc-border-radius-round);
 }
 .episode-link {
   font-size: 10px;
+}
+
+.container-epi:hover {
+  outline: 3px solid rgb(231, 166, 61);
+  transform: scale(1.05) rotate(1deg);
+
+  background-color: rgb(240, 230, 144);
+}
+.container-epi:hover > img {
+  width: 40%;
+  height: 50%;
+}
+.container-epi:hover > .episode-link {
+  font-size: 20px;
+  text-align: center;
 }
