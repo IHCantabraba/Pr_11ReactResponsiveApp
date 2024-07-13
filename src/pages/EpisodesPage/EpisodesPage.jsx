@@ -1,6 +1,5 @@
 import React from 'react'
-import Episodes from '../components/Episodes/Episodes'
-import './EpisodePage'
+import Episodes from '../../components/Episodes/Episodes'
 
 const EpisodesPage = () => {
   return (
